@@ -1,0 +1,42 @@
+.container {
+    display: "flex";
+      align-items:"center";
+      padding-top:"6rem";
+      justify-content:"center";
+      color:"black";
+}
+
+
+/*  */
+/* .formContainer {
+    display: "flex";
+    align-items: center;
+} */
+
+.input {
+    padding: .6rem;
+    border: 1px solid #111;
+    border-radius: 11px;
+}
+
+.formInput {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 9px 28px;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    font-family: "Instrument Serif";
+    border: none;
+    border-radius: 50px;
+    transition: all .45s;
+}
+
+.btn:hover {
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3) ;
+}
